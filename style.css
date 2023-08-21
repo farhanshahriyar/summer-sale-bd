@@ -1,0 +1,57 @@
+body{
+    position: relative;
+}
+/* .font-work {
+    font-family: 'Work Sans', sans-serif;
+} */
+
+.mini-cart{
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 1rem;
+    display: none;
+}
+.cart-items{
+    position: relative;
+}
+
+#responsive-cart-btn{
+    margin-right: 30px;
+    display: block;
+}
+
+/* popup-container */
+.popup-container{
+    display: none;
+}
+.popup-container {
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.popup-box {
+    position: relative;
+    background-color: #fff;
+    max-width: 28rem; /* Adjust this to your desired maximum width */
+    width: 100%;
+    padding: 2rem; /* Adjust padding as needed */
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
